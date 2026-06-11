@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#333;
+    padding-bottom:80px;
+}
+
+.mobile-container{
+    max-width:420px;
+    margin:auto;
+    min-height:100vh;
+}
+
+header{
+    background:#5ABA4A;
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-radius:0 0 20px 20px;
+}
+
+.logo-area{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.logo-area h1{
+    color:#5ABA4A;
+}
+
+.card{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+input,
+select{
+    width:100%;
+    padding:14px;
+    margin-top:12px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:15px;
+}
+
+.btn-primary{
+    width:100%;
+    margin-top:18px;
+    padding:14px;
+    background:#5ABA4A;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.btn-danger{
+    width:100%;
+    margin-top:20px;
+    padding:14px;
+    background:#dc3545;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.link-text{
+    text-align:center;
+    margin-top:15px;
+}
+
+.link-text a{
+    color:#5ABA4A;
+    text-decoration:none;
+}
+
+.queue-box{
+    text-align:center;
+    margin:20px 0;
+}
+
+.queue-box h1{
+    font-size:48px;
+    color:#5ABA4A;
+}
+
+.status-row{
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+    margin:20px 0;
+}
+
+.status-row span{
+    color:#777;
+    font-size:14px;
+}
+
+.avatar{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    background:#5ABA4A;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:35px;
+    margin:auto;
+    margin-bottom:15px;
+}
+
+.profile-card{
+    text-align:center;
+}
+
+.bottom-nav{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    max-width:420px;
+    margin:auto;
+    background:white;
+    display:flex;
+    justify-content:space-around;
+    padding:15px;
+    border-top:1px solid #ddd;
+}
+
+.bottom-nav a{
+    text-decoration:none;
+    color:#666;
+    font-weight:600;
+}
+
+.bottom-nav a.active{
+    color:#5ABA4A;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
